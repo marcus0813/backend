@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace WebApiTest.Controllers;
 
@@ -28,5 +29,11 @@ public class WeatherForecastController : ControllerBase
             Summary = Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
+    }
+
+    [HttpPost("ShowSomething")]
+    public string bullShit([FromBody] string body) 
+    {
+        return body;
     }
 }

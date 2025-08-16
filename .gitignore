@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/obj/Debug/net9.0
+/bin/Debug/net9.0
+/.vs/WebApiTest/v17/.suo
+/obj/Debug/net9.0/WebApiTest.AssemblyInfoInputs.cache
+/obj/Debug/net9.0/WebApiTest.AssemblyInfo.cs
